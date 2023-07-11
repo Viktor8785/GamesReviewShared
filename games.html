@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Games Review</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page__body--games">
+    <section class="games">
+      <h1 class="games__title"></h1>
+      <ul class="games__list">
+      </ul>
+    </section>
+    <footer class="footer">
+      <nav class="main-nav">
+        <li>
+          <a class="main-nav__item" href="index.html" id="games-button">
+            <svg class="main-nav__svg-games" width="24" height="24">
+              <use xlink:href="img/icons/stack.svg#games-icon"></use>
+            </svg>
+            <p class="main-nav__item-text">Games</p>
+          </a>
+        </li>
+        <li>
+          <a class="main-nav__item" href="" id="watch-button">
+            <svg class="main-nav__svg-watch" width="24" height="24">
+              <use xlink:href="img/icons/stack.svg#heart-icon"></use>
+            </svg>
+            <p class="main-nav__item-text">Watchlist</p>
+          </a>
+        </li>
+      </nav>
+    </footer>
+    <template id="element-template">
+      <li class="games__item">
+        <a href="game.html" class="games__link">
+          <img class="games__img" src="" alt="BioShock game">
+          <p class="games__text"></p>
+        </a>
+      </li>
+    </template>
+    <script src="js/games.js" type="module" defer></script>
+  </body>
+</html>
