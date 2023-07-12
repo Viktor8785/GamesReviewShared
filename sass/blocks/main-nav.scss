@@ -1,0 +1,43 @@
+.main-nav {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  list-style: none;
+
+  @media(min-width: $tablet-width) {
+    margin-top: 40px;
+  }
+}
+
+.main-nav__item {
+  display: grid;
+  justify-items: center;
+  text-decoration: none;
+  filter: brightness(70%);
+  &--active {
+    filter: brightness(100%);
+  }
+}
+
+.main-nav__item-text {
+  margin: 0;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #ffffff;
+
+  @media(min-width: $tablet-width) {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+}
+
+.main-nav__svg-games,
+.main-nav__svg-watch {
+
+  @media(min-width: $tablet-width) {
+    transform: scale(1.3);
+  }
+}
