@@ -35,7 +35,12 @@
     <template id="element-template">
       <li class="games__item">
         <a href="game.html" class="games__link">
-          <img class="games__img" src="" alt="BioShock game">
+          <picture>
+            <source type="image/webp" media="(min-width: 720px)" srcset="">
+            <source type="image/webp" srcset="">
+            <source media="(min-width: 720px)" srcset="">
+            <img class="games__img" src="" srcset="" alt="">
+          </picture>
           <p class="games__text"></p>
         </a>
       </li>
