@@ -9,7 +9,11 @@
   <body class="page__body--games">
     <section class="game">
       <h1 class="visually-hidden">Game</h1>
-      <img class="game__img" src="" alt="">
+      <div class="game__card-container">
+        <img class="game__img" id="img1" src="" alt="">
+        <img class="game__img" id="img2" src="" alt="">
+        <img class="game__img" id="img3" src="" alt="">
+      </div>
       <div class="game__wrapper">
         <div class="game__container">
          <p class="game__name"></p>
@@ -25,6 +29,16 @@
       <button type="button" class="game__button-watchlist">
         <svg class="game__button-svg" width="24" height="24">
           <use xlink:href="img/icons/stack.svg#heart-icon"></use>
+        </svg>
+      </button>
+      <button type="button" class="game__button-left">
+        <svg class="button-left__svg" width="24" height="24">
+          <use xlink:href="img/icons/stack.svg#right-arrow"></use>
+        </svg>
+      </button>
+      <button type="button" class="game__button-right">
+        <svg class="button-right__svg" width="24" height="24">
+          <use xlink:href="img/icons/stack.svg#right-arrow"></use>
         </svg>
       </button>
     </section>
