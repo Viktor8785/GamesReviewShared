@@ -9,10 +9,27 @@
   <body class="page__body--games">
     <section class="game">
       <h1 class="visually-hidden">Game</h1>
-      <div class="game__card-container">
-        <img class="game__img" id="img1" src="" alt="">
-        <img class="game__img" id="img2" src="" alt="">
-        <img class="game__img" id="img3" src="" alt="">
+      <div class="game__slider">
+        <div class="game__card-container">
+          <picture class="game__picture" id="img1">
+            <source type="image/webp" media="(min-width: 760px)" srcset="">
+            <source type="image/webp" srcset="">
+            <source media="(min-width: 760px)" srcset="">
+            <img class="game__img" src="" srcset="" alt="">
+          </picture>
+          <picture class="game__picture" id="img2">
+            <source type="image/webp" media="(min-width: 760px)" srcset="">
+            <source type="image/webp" srcset="">
+            <source media="(min-width: 760px)" srcset="">
+            <img class="game__img" src="" srcset="" alt="">
+          </picture>
+          <picture class="game__picture" id="img3">
+            <source type="image/webp" media="(min-width: 760px)" srcset="">
+            <source type="image/webp" srcset="">
+            <source media="(min-width: 760px)" srcset="">
+            <img class="game__img" src="" srcset="" alt="">
+          </picture>
+        </div>
       </div>
       <div class="game__wrapper">
         <div class="game__container">
